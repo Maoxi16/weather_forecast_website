@@ -4,8 +4,7 @@
 
 ## Getting Set Up
 
-This repo contains my `main.css` and `index.html` from the Assignment 2. You can
-use those or continue to work on your Assignment 2 code (copy it into an assignment 3 repo.)
+This repo contains my `main.css` and `index.html` 
 
 ## Step One
 
