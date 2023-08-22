@@ -104,7 +104,7 @@ the Census has a [Geocoding API](https://geocoding.geo.census.gov/geocoder/Geoco
 Take a minute and read about [CORS Requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). Because the Census Geocoding API doesn't actually supply CORS headers,
 we can't call it directly from our client-side/frontend code (you can try this, if you want). ~~Instead, we'll proxy the requests via [corsproxy.io](https://corsproxy.io/).~~ Is proxying via a website run by a random German company a good practice? No. In the "real world", you'd proxy via a server you control. (**Update**: the assignment now has its own dev server which proxies the requests.)
 
-## Step Three: Replace your hard-coded forecast
+## Step Three: Replace hard-coded forecast
 
 **NOTE**: It doesn't actually matter if you do this before or after Steps 4/5. However, it's probably marginally easier to do this first using the sample data.
 
@@ -151,7 +151,3 @@ What should your application do when either the forecast or address can't be fou
 - [ ] check that the tests pass
 - [ ] check for errors/warnings with WAVE
 
-## Notes
-
-- The are precommit hooks set up with `husky`. If you need to bypass them (eg to save work in progess), run commit with `git commit --no-verify`.
-- If you're submitting via Blackboard, run `pnpm pack` to create a tar ball (why didn't I think of this last time?) and change the name of the file to `<your name>-assignment3.tar`.
